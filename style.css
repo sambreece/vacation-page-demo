@@ -1,0 +1,45 @@
+
+html {
+    box-sizing:border-box;
+}
+
+ body {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    height: 75%;
+    justify-content: space-evenly;
+} 
+
+
+#cards_container {
+    flex-wrap: wrap;
+}
+
+article {
+    height: 70%;
+}
+
+#left_article {
+    width: 35%;
+    max-width: 400px;
+}
+
+#right_article {
+    width: 60%;
+}
+#cards_heading {
+    height: 10%;
+} 
+
+#cards_container {
+    height: 90%;
+}
+
+#gif_container {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
